@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Sports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8e5b4; /* Light warm background */
+        }
+        header {
+            background: #c65d34; /* Pumpkin color */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .column {
+            background: #f4a460; /* Sandy brown */
+            padding: 15px;
+            margin: 0 10px;
+            flex: 1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #c65d34; /* Same as header */
+            color: #fff;
+        }
+        .image-container {
+            float: right; /* Float the image to the right */
+            margin-left: 20px; /* Space between text and image */
+            margin-top: 10px; /* Space above the image */
+        }
+        .image-container img {
+            max-width: 300px; /* Set a max width for the image */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Exciting World of Sports</h1>
+</header>
+
+<div class="container">
+    <div class="column">
+        <h2>Popular Sports Around the World</h2>
+        <p>Sports are an integral part of culture and society. Football (soccer) is the most popular sport globally, played by millions and watched by billions during events like the FIFA World Cup.</p>
+        <p>Basketball, with its fast-paced action and high scoring, is another major sport, especially in the United States. The NBA features some of the best athletes, captivating fans with thrilling games.</p>
+    </div>
+
+    <div class="column">
+        <h2>The Importance of Sports</h2>
+        <p>Engaging in sports promotes physical health, teamwork, and discipline. It encourages people to stay active and develop skills that are valuable both on and off the field.</p>
+        <p>Moreover, sports foster a sense of community and belonging, whether through local leagues or international competitions like the Olympics, where athletes represent their countries with pride.</p>
+    </div>
+</div>
+
+<div class="image-container">
+    <h2>Fall Sports in Action</h2>
+    <img src="R.jpeg" alt="Basketball on Court" />
+</div>
+
+<footer>
+    <p>&copy; 2024 All About Sports. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
